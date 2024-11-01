@@ -10,7 +10,7 @@ The font size here is set to 62.5% so that
 a little easier
 */
 body {
-	margin: 0 ;
+	margin: 0;
 	//width: 800px;
 	padding: 0;
 	background: #7a2122 url('../images/body_bg.gif') repeat-x top;
@@ -19,7 +19,11 @@ body {
 	color: #333;
 }
 
-h1, h2, p, ul, li {
+h1,
+h2,
+p,
+ul,
+li {
 	margin: 0;
 	padding: 0;
 }
@@ -37,6 +41,7 @@ a:link {
 	color: #333;
 	background: #eee;
 }
+
 a:visited {
 	color: #ff0000;
 	background: #eee;
@@ -78,7 +83,7 @@ in the browser window
 */
 
 #masthead {
-	margin: 0 auto ;
+	margin: 0 auto;
 	margin-top: 20px;
 	width: 800px;
 	color: #fff;
@@ -94,7 +99,7 @@ in the browser window
 	font-size: 1.4em;
 }
 
- 
+
 #nav li {
 	display: inline;
 	margin: 0 0 0 20px;
@@ -132,7 +137,8 @@ the layout
 	background: url('../images/tagline_bg.gif') repeat-x;
 }
 
-#content, #sidebar {
+#content,
+#sidebar {
 	width: 360px;
 	margin: 20px 0 20px 0;
 	padding: 10px;
@@ -140,6 +146,7 @@ the layout
 
 #content {
 	float: right;
+	text-align: right;
 }
 
 #content h2 {
